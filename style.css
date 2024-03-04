@@ -7,6 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
+  min-height: 100vh;
   padding: 6.2rem 2.4rem 9.4rem 2.4rem;
   font-family: "Chivo", sans-serif;
   background-image: url(./assets/mobile/image-host.jpg);
@@ -99,5 +100,12 @@ header {
   border: none;
   padding: 1rem 0;
 }
-@media (min-width: 48em) {
+@media (min-width: 48rem) {
+  body {
+    padding: 5rem 0 0 3.9rem;
+    background-image: url(./assets/tablet/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top right;
+  }
 }
