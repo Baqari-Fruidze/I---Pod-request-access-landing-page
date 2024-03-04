@@ -101,11 +101,75 @@ header {
   padding: 1rem 0;
 }
 @media (min-width: 48rem) {
+  body::before {
+    display: none;
+  }
   body {
+    background: #121725;
     padding: 5rem 0 0 3.9rem;
     background-image: url(./assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top right;
+  }
+  .desktop-logo {
+    display: inline;
+  }
+  .h1-class {
+    color: #54e6af;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px; /* 116.667% */
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 3.1rem;
+    width: 30ch;
+  }
+  .h1-span {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px;
+    text-transform: uppercase;
+  }
+  .p-class {
+    color: #c2cbe5;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    text-align: left;
+    width: 40ch;
+  }
+  .texts-div {
+    margin-bottom: 4rem;
+  }
+  .buttons-div {
+    position: relative;
+    margin-bottom: 6.4rem;
+  }
+  .input {
+    width: 58%;
+    order: 2;
+  }
+  .btn {
+    position: absolute;
+    width: 23%;
+    right: 24.5rem;
+    top: 0rem;
+  }
+  .icons-div {
+    width: 70%;
+    order: 1;
+  }
+  .icons-and-buttons-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-biggest-div {
+    width: 80%;
+  }
+  .dots {
+    display: block;
+    margin-top: 15.3rem;
   }
 }
