@@ -109,7 +109,7 @@ header {
     padding: 5rem 0 0 3.9rem;
     background-image: url(./assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 60%;
     background-position: top right;
   }
   .desktop-logo {
@@ -165,11 +165,18 @@ header {
     display: flex;
     flex-direction: column;
   }
-  .middle-biggest-div {
-    width: 80%;
-  }
+
   .dots {
     display: block;
-    margin-top: 15.3rem;
+    margin-top: 37.3rem;
   }
+  .middle-biggest-div {
+    width: 86%;
+    background: #121725;
+    margin-top: 14rem;
+    margin-left: 2rem;
+    padding-top: 6rem;
+  }
+}
+@media (min-width: 90rem) {
 }
