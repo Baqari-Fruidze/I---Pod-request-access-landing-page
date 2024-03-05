@@ -118,7 +118,7 @@ header {
     background-image: url(./assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
     background-size: 60%;
-    background-position: top right -17rem;
+    background-position: top right;
   }
   .desktop-logo {
     display: inline;
@@ -131,7 +131,7 @@ header {
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 3.1rem;
-    width: 30ch;
+    /* width: 30ch; */
   }
   .h1-span {
     color: #fff;
@@ -176,7 +176,7 @@ header {
 
   .dots {
     display: block;
-    margin-top: 37.3rem;
+    margin-top: 15.3rem;
   }
   .middle-biggest-div {
     width: 86%;
