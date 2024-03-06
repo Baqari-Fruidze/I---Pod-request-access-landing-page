@@ -188,12 +188,13 @@ header {
 }
 @media (min-width: 90rem) {
   body {
-    padding: 10.2rem 0 0 16.5rem;
-    background-size: 38%;
-    background-position: top 12rem right;
+    background-image: url(./assets/desktop/Bitmap.png);
+    padding: 11.2rem 0 0 16.5rem;
+    background-size: 88rem 64rem;
+    background-position: top 16rem right;
   }
   .middle-biggest-div {
-    width: 66%;
+    width: 56%;
     padding-top: 7rem;
   }
   .h1-class {
@@ -215,7 +216,7 @@ header {
     width: 50%;
   }
   .btn {
-    right: 43.2rem;
+    right: 36.2rem;
   }
   .icons-div {
     width: 78%;
@@ -224,6 +225,7 @@ header {
     display: block;
     margin-left: auto;
     margin-bottom: 7.8rem;
+    margin-top: -11.7rem;
   }
   .validation-span {
     color: #fb3e3e;
@@ -232,5 +234,8 @@ header {
     line-height: normal;
     display: none;
     margin-left: 3.2rem;
+  }
+  .buttons-div {
+    margin-bottom: 5.4rem;
   }
 }
